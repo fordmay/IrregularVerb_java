@@ -135,7 +135,7 @@ public class EngineProgram extends GraphicProgram {
 				e.printStackTrace();
 			}
 			useResetItem();
-			textPane.setText("File has been loaded...");
+			textPane.setText("File is loaded...");
 			controlMenu.setEnabled(true);
 		}else if(result == JFileChooser.CANCEL_OPTION);
 	}
